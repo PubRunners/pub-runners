@@ -1,0 +1,85 @@
+#cssmenu ul {
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+}
+#cssmenu li {
+  margin: 0;
+  padding: 0;
+}
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+}
+#cssmenu ul {
+  list-style: none;
+}
+#cssmenu a {
+  text-decoration: none;
+}
+#cssmenu {
+  height: 40px;
+  background-color: #232323;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+  --width: auto;
+}
+#cssmenu  ul  li {
+  --float: left;
+  float: right;
+  margin-right: 15px;
+  position: relative;
+}
+#cssmenu  ul  li  a {
+  color: #a0a0a0;
+  font-family: Verdana, 'Lucida Grande';
+  font-size: 15px;
+  line-height: 40px;
+  padding: 10px 15px;
+  -webkit-transition: color .15s;
+  -moz-transition: color .15s;
+  -o-transition: color .15s;
+  transition: color .15s;
+}
+#cssmenu  ul  li  a:hover {
+  color: #ffffff;
+  background-color:#0066FF;
+}
+
+
+
+
+#sidemenu ul{
+
+  background: #333;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+ --width: 12em;
+ width: 100%;
+   border-radius:5px;
+}
+#sidemenu li {
+  text-align:center;
+  font: 80% 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#sidemenu a {
+
+   border-radius:5px;
+  background: #333;
+  --border-bottom: 1px solid #393939;
+  color: #ccc;
+  display: block;
+  margin: 0;
+  padding: 8px;
+  --padding: 8px 12px;
+  text-decoration: none;
+  font-weight: normal;
+}
+#sidemenu a:hover {
+  background: #0066FF; --url('hover.gif') left center no-repeat;
+  color: #fff;
+  padding-bottom: 8px;
+}
